@@ -1,5 +1,5 @@
 describe('Test registration', function () {
-	const NAME = 'Oxana';
+	const NAME = 'Natalia';
 	const PHONE = '(911)718-15-75';
 	const EMAIL = 'far7north@gmail.com';
 
