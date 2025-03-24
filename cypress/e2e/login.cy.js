@@ -7,5 +7,8 @@ describe('Log in', () => {
 		cy.get('#loginpass').type('R8c5d7b');
 
 		cy.get('#loginkotofoto').should('be.visible').click();
+
+		cy.wait(1000);
+		cy.get('.icon-user').should('be.visible').click();
 	});
 });
